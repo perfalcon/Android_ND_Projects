@@ -1,1 +1,1 @@
-# Android_ND_Projects
+# Android_ND_ProjectsThis repo contains all the projects completed in the Android Developer NanoDegree from Udacity in collaboration with Google Scholarship.1. Sandwich Club2. Popular Movies Stage 13. Popular Movies Stage 24. Baking App5. Build It Bigger6. Make Your App Material7. CapStone Project 18. CapStone Project 2
