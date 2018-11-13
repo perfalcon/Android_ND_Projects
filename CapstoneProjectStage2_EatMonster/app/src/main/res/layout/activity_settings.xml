@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="@drawable/popup_border"
+    android:id="@+id/cstlSettings">
+
+    <TextView
+        android:id="@+id/tvSkins"
+        style="@style/PopupSettingsTextStyle"
+        android:layout_width="@dimen/text_skin_width"
+        android:layout_height="@dimen/itemPopupSettings_height"
+        android:text="@string/skinText"
+        app:layout_constraintEnd_toStartOf="@+id/spinnerSkin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwH1" />
+
+    <Spinner
+        android:id="@+id/spinnerSkin"
+        android:layout_width="@dimen/spinner_skin_width"
+        android:layout_height="@dimen/itemPopupSettings_height"
+        android:layout_marginEnd="@dimen/itemPopupSettings_marginEnd"
+        android:clickable="true"
+        android:focusable="true"
+        android:entries="@array/skin_array"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwH1" />
+
+    <TextView
+        android:id="@+id/tvNoAds"
+        style="@style/PopupSettingsTextStyle"
+        android:layout_marginEnd="@dimen/itemPopupSettings_marginEnd"
+        android:text="@string/noAdsText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/textNoAds_constraintHorizontal_bias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/vwH2"
+        android:enabled="false"/>
+
+    <View
+        android:id="@+id/vwH2"
+        style="@style/PopupSettingsHorizontalDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvSkins"
+         />
+
+    <View
+        android:id="@+id/vwH1"
+        style="@style/PopupSettingsHorizontalDivider"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switchSaveScore" />
+
+    <Switch
+        android:id="@+id/switchSaveScore"
+        style="@style/PopupSettingsTextStyle"
+        android:layout_marginEnd="@dimen/itemPopupSettings_marginEnd"
+        android:text="@string/switchSaveScoreText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

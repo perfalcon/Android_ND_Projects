@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Eat Monster</string>
+    <!-- -
+        This is an ad unit ID for a banner test ad. Replace with your own banner ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="cdSettings">Settings</string>
+    <string name="cdOptions">Options</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="cdFoodImage">Current Food Item</string>
+    <string name="cdFace">This is a Monster Face</string>
+    <string name="cdPlay50Coins">Play the Ad to get 50 coins</string>
+    <string name="cdPlay100Coins">Play the Ad to get 100 coins</string>
+    <string name="cdPlay150Coins">Play the Ad to get 150 coins</string>
+    <string name="widgetTitle">Eat Monster Status</string>
+    <string name="coinsDefaultText">Coins: 0</string>
+    <string name="scoreDefaultText">Score: 0</string>
+    <string name="coinsLabelText">Coins: </string>
+    <string name="scoreLabelText">Score: </string>
+    <string name="Coins50">50 Coins</string>
+    <string name="Coins100">100 Coins</string>
+    <string name="Coins150">150 Coins</string>
+    <string name="switchSaveScoreText">Save Score</string>
+    <string name="noAdsText">No Ads</string>
+    <string name="skinText">Skin</string>
+    <string name="paidVersionText">Available in Paid Version"</string>
+    <string name="achievement">Achievement</string>
+    <string name="achievement_prime_toast_text">Prime score!</string>
+    <string name="players_exception">There was an issue communicating with players.</string>
+    <string name="status_exception_error">%1$s (status %2$d). %3$s.</string>
+    <string name="achievements_exception">There was an issue communicating with achievements.</string>
+    <string name="your_progress_will_be_uploaded">Your existing achievements and score will be uploaded shortly.</string>
+    <string name="Level_1">Level 1</string>
+    <string name="Level_2">Level 2</string>
+    <string name="Level_3">Level 3</string>
+    <string name="Level_4">Level 4</string>
+    <string name="Level_5">Level 5</string>
+    <string name="NetworkConnectionError">Please check your Internet Connection.</string>
+    <string name="score">Score</string>
+
+
+</resources>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/cstlMain">
+
+
+
+    <!-- view for AdMob Banner Ad -->
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        app:adSize="BANNER"
+        app:adUnitId="@string/banner_ad_unit_id"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="?attr/colorPrimary"
+        android:elevation="@dimen/toolbar_elevation"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:layout_constraintBottom_toTopOf="@+id/cstlTop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="@string/app_name"
+        tools:targetApi="lollipop">
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cstlTop"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:background="@color/colorMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+
+        <TextView
+            android:id="@+id/tvCoins"
+            style="@style/TextStyle"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/text_marginTop"
+            android:text="@string/coinsDefaultText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/vwH1"
+            style="@style/HorizontalDivider"
+            app:layout_constraintEnd_toStartOf="@+id/vwV1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvCoins" />
+
+        <TextView
+            android:id="@+id/tvScore"
+            style="@style/TextStyle"
+            android:layout_width="@dimen/text_width"
+            android:layout_height="@dimen/text_height"
+            android:layout_marginTop="@dimen/text_marginTop"
+            android:text="@string/scoreDefaultText"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/vwH1" />
+
+        <View
+            android:id="@+id/vwV1"
+            style="@style/VerticalDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tvCoins"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/ivCurrentLevel"
+            android:layout_width="@dimen/imageLevel_width"
+            android:layout_height="@dimen/imageLevel_height"
+            android:layout_marginStart="@dimen/imageLevel_marginStart"
+            android:contentDescription="@string/cdFoodImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vwV2"
+            app:layout_constraintStart_toStartOf="@+id/vwV1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="@dimen/imageLevel_constraintVertical_bias"
+            app:srcCompat="@drawable/vanilla_cone" />
+
+        <View
+            android:id="@+id/vwV2"
+            style="@style/VerticalDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/ivNextLevel"
+            app:layout_constraintStart_toEndOf="@+id/ivCurrentLevel"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/ivNextLevel"
+            android:layout_width="@dimen/imageLevel_width"
+            android:layout_height="@dimen/imageLevel_height"
+            android:layout_marginEnd="@dimen/imageLevel_marginEnd"
+            android:contentDescription="@string/cdFoodImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/vwV3"
+            app:layout_constraintStart_toEndOf="@+id/vwV2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="@dimen/imageLevel_constraintVertical_bias"
+            app:srcCompat="@drawable/vanilla_cone" />
+
+
+        <View
+            android:id="@+id/vwV3"
+            style="@style/VerticalDivider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageMore"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageSettings"
+            android:layout_width="@dimen/imageSettingsOptions_width"
+            android:layout_height="@dimen/imageSettingsOptions_height"
+            android:layout_marginBottom="@dimen/imageSettings_marginBottom"
+            android:layout_marginEnd="@dimen/imageSettings_margingEnd"
+            android:contentDescription="@string/cdSettings"
+            android:src="@drawable/ic_action_settings"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageMore"
+            app:layout_constraintVertical_bias="@dimen/imageSettings_verticalbias" />
+
+
+        <ImageView
+            android:id="@+id/imageMore"
+            android:layout_width="@dimen/imageSettingsOptions_width"
+            android:layout_height="@dimen/imageSettingsOptions_height"
+            android:layout_marginEnd="@dimen/imageOptions_margingEnd"
+            android:contentDescription="@string/cdOptions"
+            android:src="@drawable/ic_action_menu"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="417dp"
+        app:layout_constraintBottom_toTopOf="@+id/adView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cstlTop"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/imageFood"
+            style="@style/ImageFoodStyle"
+            android:contentDescription="@string/cdFoodImage"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/imageFace"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/vanilla_cone"
+            app:layout_constraintHorizontal_bias="@dimen/imageFood_constraintHorizontal_bias"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintVertical_bias="@dimen/imageFood_constraintVertical_bias"
+        />
+        <ImageView
+            android:id="@+id/imageFace"
+            style="@style/ImageFaceStyle"
+            android:contentDescription="@string/cdFace"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageFood"
+            app:srcCompat="@drawable/face"
+            app:layout_constraintVertical_bias="@dimen/imageFace_constraintVertical_bias"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

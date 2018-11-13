@@ -1,0 +1,131 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MarsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorMarsPrimary</item>
+    <item name="colorPrimaryDark">@color/colorMarsPrimaryDark</item>
+    <item name="colorAccent">@color/colorMarsAccent</item>
+</style>
+    <style name="VenusTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorVenusPrimary</item>
+        <item name="colorPrimaryDark">@color/colorVenusPrimaryDark</item>
+        <item name="colorAccent">@color/colorVenusAccent</item>
+    </style>
+
+    <style name="EarthTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorEarthPrimary</item>
+        <item name="colorPrimaryDark">@color/colorEarthPrimaryDark</item>
+        <item name="colorAccent">@color/colorEarthAccent</item>
+    </style>
+
+    <style name="HorizontalDivider">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#E5E5E8</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+    </style>
+
+    <style name="PopupHorizontalDivider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#B0B0B9</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_width">80dp</item>
+    </style>
+
+    <style name="PopupSettingsHorizontalDivider">
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#B0B0B9</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_width">@dimen/itemPopupSettings_width</item>
+    </style>
+    <style name="VerticalDivider">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">#E5E5E8</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+
+    <style name="ImageFoodStyle">
+        <item name="android:layout_width">122dp</item>
+        <item name="android:layout_height">194dp</item>
+        <item name="android:layout_marginBottom">68dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:layout_marginStart">68dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+
+    </style>
+    <style name="ImageFaceStyle">
+        <item name="android:layout_width">154dp</item>
+        <item name="android:layout_height">202dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:layout_marginEnd">92dp</item>
+        <item name="android:layout_marginTop">36dp</item>
+    </style>
+
+    <style name="WidgetTitleTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="WidgetTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAlignment">textStart</item>
+    </style>
+    <style name="PopupSettingsTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:layout_width">@dimen/itemPopupSettings_width</item>
+        <item name="android:layout_height">@dimen/itemPopupSettings_height</item>
+
+    </style>
+
+    <style name="PopupOptionsTextStyle">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAlignment">viewEnd</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">24dp</item>
+    </style>
+<style name="options_playImageStyle">
+    <item name="android:layout_width">24dp</item>
+    <item name="android:layout_height">20dp</item>
+    <item name="android:layout_marginEnd">8dp</item>
+    <item name="android:layout_marginStart">8dp</item>
+    <item name="android:layout_marginTop">4dp</item>
+    <item name="android:src">@drawable/ic_action_play_arrow</item>
+</style>
+
+
+</resources>

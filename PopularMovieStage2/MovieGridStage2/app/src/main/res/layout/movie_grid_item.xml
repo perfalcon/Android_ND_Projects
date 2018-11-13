@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/movie_grid_padding">
+<!--
+    <TextView
+        android:id="@+id/tv_item_number"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/movie_grid_text_layout_height"
+        android:layout_gravity="center_vertical|start"
+        android:layout_marginEnd="@dimen/movie_grid_8dp"
+        android:layout_marginLeft="@dimen/movie_grid_8dp"
+        android:layout_marginRight="@dimen/movie_grid_8dp"
+        android:layout_marginStart="@dimen/movie_grid_8dp"
+        android:layout_marginTop="@dimen/movie_grid_8dp"
+        android:fontFamily="monospace"
+        android:textSize="@dimen/movie_grid_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="#42" /> -->
+
+    <ImageView
+        android:id="@+id/iv_movie_image"
+        android:layout_width="@dimen/movie_grid_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/movie_grid_8dp"
+        android:layout_marginLeft="@dimen/movie_grid_8dp"
+        android:layout_marginRight="@dimen/movie_grid_8dp"
+        android:layout_marginStart="@dimen/movie_grid_8dp"
+        android:layout_marginTop="@dimen/movie_grid_8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/sample_1"
+        android:scaleType="fitXY"/>
+
+</android.support.constraint.ConstraintLayout>

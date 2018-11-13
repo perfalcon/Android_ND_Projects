@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:id="@+id/iv_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/trailer_iv_layout_marginLeft"
+        android:layout_marginStart="@dimen/trailer_iv_layout_marginStart"
+        android:layout_marginTop="@dimen/trailer_iv_layout_marginTop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+    <TextView
+        android:id="@+id/tv_trailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/trailer_text_layout_marginBottom"
+        android:layout_marginEnd="@dimen/trailer_text_layout_marginEnd"
+        android:layout_marginLeft="@dimen/trailer_text_layout_marginLeft"
+        android:layout_marginRight="@dimen/trailer_text_layout_marginRight"
+        android:layout_marginStart="@dimen/trailer_text_layout_marginStart"
+        android:layout_marginTop="@dimen/trailer_text_layout_marginTop"
+        android:text="@string/default_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/shareButton"
+        app:layout_constraintStart_toEndOf="@+id/iv_play"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/trailer_layout_constraintVertical_bias" />
+
+    <ImageButton
+        android:id="@+id/shareButton"
+        android:layout_width="@dimen/trailer_image_layout_width"
+        android:layout_height="@dimen/trailer_image_layout_height"
+        android:layout_marginBottom="@dimen/trailer_image_layout_marginBottom"
+        android:layout_marginEnd="@dimen/trailer_image_layout_marginEnd"
+        android:layout_marginRight="@dimen/trailer_image_layout_marginRight"
+        android:layout_marginTop="@dimen/trailer_image_layout_marginTop"
+        android:background="@android:color/background_light"
+        android:onClick="OnShareClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="@dimen/constraintHorizontal_bias"
+        app:srcCompat="@drawable/share_image_24" />
+
+</android.support.constraint.ConstraintLayout>

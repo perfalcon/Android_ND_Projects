@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/playerView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/exoplayer_height"
+        android:layout_marginEnd="@dimen/exoplayer_margin"
+        android:layout_marginLeft="@dimen/exoplayer_margin"
+        android:layout_marginRight="@dimen/exoplayer_margin"
+        android:layout_marginStart="@dimen/exoplayer_margin"
+        android:layout_marginTop="@dimen/exoplayer_margin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tv_step_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/step_text_margin"
+        android:layout_marginEnd="@dimen/step_text_margin"
+        android:layout_marginLeft="@dimen/step_text_margin"
+        android:layout_marginRight="@dimen/step_text_margin"
+        android:layout_marginStart="@dimen/step_text_margin"
+        android:layout_marginTop="@dimen/step_text_margin"
+        android:gravity="fill_horizontal"
+        android:scrollbars="vertical"
+        android:text="@string/default_text"
+        android:textAlignment="gravity"
+        android:textSize="@dimen/step_textSize"
+        app:layout_constraintBottom_toTopOf="@+id/btn_prev_step"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerView" />
+
+    <Button
+        android:id="@+id/btn_prev_step"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/button_prev_margin"
+        android:layout_marginLeft="@dimen/button_prev_margin"
+        android:layout_marginStart="@dimen/button_prev_margin"
+        android:text="@string/prev_step"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_next_step"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginBottom="@dimen/button_next_topmargin"
+        android:layout_marginEnd="@dimen/button_next_margin"
+        android:layout_marginLeft="@dimen/button_next_margin"
+        android:layout_marginRight="@dimen/button_next_margin"
+        android:layout_marginStart="@dimen/button_next_margin"
+        android:text="@string/next_step"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="@dimen/button_horizontal_bias"
+        app:layout_constraintStart_toEndOf="@+id/btn_prev_step" />
+</android.support.constraint.ConstraintLayout>

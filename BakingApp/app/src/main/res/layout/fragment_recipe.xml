@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight=".5">
+
+
+  <ListView
+      android:id="@+id/lv_steps"
+      android:layout_width="match_parent"
+      android:layout_height="517dp"
+      android:layout_marginEnd="@dimen/recipe_fragment_margin"
+      android:layout_marginLeft="@dimen/recipe_fragment_margin"
+      android:layout_marginRight="@dimen/recipe_fragment_margin"
+      android:layout_marginStart="@dimen/recipe_fragment_margin"
+      android:layout_marginTop="@dimen/recipe_fragment_margin"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="@dimen/recipe_fragment_bias"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

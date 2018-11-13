@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_side_margin">4dp</dimen>
+    <dimen name="list_toolbar_side_margin">0dp</dimen>
+
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="toolbar_height">30dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">2dp</dimen>
+    <dimen name="settings_item_width">221dp</dimen>
+    <dimen name="settings_item_height">26dp</dimen>
+
+
+    <!-- Main Menu -->
+    <dimen name="menuBar_height">81dp</dimen>
+    <dimen name="text_width">160dp</dimen>
+    <dimen name="text_height">28dp</dimen>
+    <dimen name="text_marginTop">8dp</dimen>
+    <dimen name="imageLevel_width">50dp</dimen>
+    <dimen name="imageLevel_height">64dp</dimen>
+    <dimen name="imageLevel_marginStart">8dp</dimen>
+    <dimen name="imageLevel_marginEnd">8dp</dimen>
+    <dimen name="imageLevel_constraintVertical_bias">0.428</dimen>
+    <dimen name="imageSettingsOptions_width">36dp</dimen>
+    <dimen name="imageSettingsOptions_height">34dp</dimen>
+    <dimen name="imageSettings_marginBottom">8dp</dimen>
+    <dimen name="imageSettings_margingEnd">16dp</dimen>
+    <dimen name="imageSettings_verticalbias">1.0</dimen>
+    <dimen name="imageOptions_margingEnd">16dp</dimen>
+    <dimen name="imageFood_constraintHorizontal_bias">1.0</dimen>
+    <dimen name="imageFood_constraintVertical_bias">1.0</dimen>
+    <dimen name="imageFace_constraintVertical_bias">0.251</dimen>
+
+    <dimen name="imagePopupPlay_constraintHorizontal_bias">0.486</dimen>
+
+    <dimen name="itemPopupSettings_height">26dp</dimen>
+    <dimen name="itemPopupSettings_width">221dp</dimen>
+
+    <dimen name="text_skin_width">92dp</dimen>
+    <dimen name="spinner_skin_width">129dp</dimen>
+    <dimen name="itemPopupSettings_marginEnd">8dp</dimen>
+    <dimen name="textNoAds_constraintHorizontal_bias">0.503</dimen>
+
+    <dimen name="imageWidget_height">40dp</dimen>
+    <dimen name="imageWidget_width">33dp</dimen>
+    <dimen name="textWidget_marginTop">4dp</dimen>
+    <dimen name="textWidgetCoin_width">91dp</dimen>
+    <dimen name="textWidgetScore_width">90dp</dimen>
+</resources>

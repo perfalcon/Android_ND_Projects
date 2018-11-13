@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perfalcon.balav.bakingapp">
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailActivity"
+            android:label="Recipe Details">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.perfalcon.balav.bakingapp.MainActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".RecipeStepsActivity"
+            android:label="Recipe Details"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.perfalcon.balav.bakingapp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".StepDetail"
+            android:label="Step Details"
+            android:theme="@style/AppTheme"
+            android:parentActivityName=".DetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.perfalcon.balav.bakingapp.DetailActivity" />
+        </activity>
+
+        <receiver android:name=".HomeScreenWidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/homescreen_widget_info" />
+        </receiver>
+
+        <provider
+            android:authorities="com.perfalcon.balav.bakingapp"
+            android:name=".data.IngredientContentProvider"
+            android:exported="true"/>
+    </application>
+
+</manifest>

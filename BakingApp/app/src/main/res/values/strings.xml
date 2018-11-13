@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <!-- Error messages-->
+    <string name="detail_error_message">Baking data not available</string>
+    <string name="internet_error_message">Please check your Internet Connection</string>
+    <string name="default_text">Text to added</string>
+    <string name="next_step">Move to Next Step</string>
+    <string name ="prev_step">Move to Prev Step</string>
+    <string name="loading_msg">Loading Recipies</string>
+</resources>

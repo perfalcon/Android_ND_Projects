@@ -1,0 +1,48 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/widgetEatMonster">
+
+
+    <TextView
+        android:id="@+id/tvWidgetTitle"
+        style="@style/WidgetTitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/textWidget_marginTop"
+        android:text="@string/widgetTitle" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/imageWidget_width"
+        android:layout_height="@dimen/imageWidget_height"
+        android:layout_below="@+id/tvWidgetTitle"
+        android:layout_toEndOf="@+id/tvCoins"
+        android:contentDescription="@string/cdFoodImage"
+        android:src="@drawable/vanilla_cone" />
+
+    <TextView
+        android:id="@+id/tvCoins"
+        style="@style/WidgetTextStyle"
+        android:layout_width="@dimen/textWidgetCoin_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvWidgetTitle"
+        android:text="@string/coinsDefaultText" />
+
+    <TextView
+        android:id="@+id/tvScore"
+        style="@style/WidgetTextStyle"
+        android:layout_width="@dimen/textWidgetScore_width"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tvCoins"
+        android:text="@string/scoreDefaultText" />
+
+</RelativeLayout>

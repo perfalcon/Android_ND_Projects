@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/tools">
+    <dimen name="trailer_image_layout_width">29dp</dimen>
+    <dimen name="trailer_image_layout_height">25dp</dimen>
+    <dimen name="trailer_image_layout_marginBottom">8dp</dimen>
+    <dimen name="trailer_image_layout_marginEnd">72dp</dimen>
+    <dimen name="trailer_image_layout_marginRight">72dp</dimen>
+    <dimen name="trailer_image_layout_marginTop">8dp</dimen>
+
+    <dimen name="trailer_text_layout_marginBottom">8dp</dimen>
+    <dimen name="trailer_text_layout_marginEnd">8dp</dimen>
+    <dimen name="trailer_text_layout_marginLeft">12dp</dimen>
+    <dimen name="trailer_text_layout_marginRight">8dp</dimen>
+    <dimen name="trailer_text_layout_marginStart">12dp</dimen>
+    <dimen name="trailer_text_layout_marginTop">8dp</dimen>
+
+    <dimen name="trailer_iv_layout_marginLeft">68dp</dimen>
+    <dimen name="trailer_iv_layout_marginStart">68dp</dimen>
+    <dimen name="trailer_iv_layout_marginTop">4dp</dimen>
+    <dimen name="trailer_text_layout_constraintVertical_bias">0.38</dimen>
+    <dimen name="trailer_layout_constraintVertical_bias">0.0</dimen>
+
+    <dimen name="movie_grid_8dp">8dp</dimen>
+    <dimen name="movie_grid_layout_width">257dp</dimen>
+    <dimen name="movie_grid_text_layout_height">76dp</dimen>
+    <dimen name="movie_grid_text_size">42sp</dimen>
+    <dimen name="movie_grid_padding">16dp</dimen>
+    <dimen name="review_8dp">8dp</dimen>
+    <dimen name="review_16dp">16dp</dimen>
+    <dimen name="review_4dp">4dp</dimen>
+    <dimen name="constraintHorizontal_bias">0.012</dimen>
+
+    <dimen name="main_textsize">20sp</dimen>
+
+    <dimen name="no_internet_textsize">16sp</dimen>
+
+    <dimen name="detail_textview_margin">8dp</dimen>
+    <dimen name="detail_textview_margin_plot">56dp</dimen>
+    <dimen name="detail_padding">20sp</dimen>
+    <dimen name="detail_textSizeLarge">36sp</dimen>
+    <dimen name="detail_textSizeMedium">30sp</dimen>
+    <dimen name="detail_textSize">20sp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="detail_textview_margin_16">16dp</dimen>
+    <dimen name="detail_textview_margin_12">12dp</dimen>
+    <dimen name="detail_constraintHorizontal_bias">0.0</dimen>
+    <dimen name="detail_constraintVertical_bias">0.0</dimen>
+    <dimen name="toggle_detail_constraintHorizontal_bias">0.246</dimen>
+    <dimen name="toggle_layout_width">93dp</dimen>
+    <dimen name="toggle_layout_height">44dp</dimen>
+    <dimen name="rv_review_layout_height">82dp</dimen>
+    <dimen name="rv_trailer_layout_height">69dp</dimen>
+    <dimen name="rv_trailer_layout_width">285dp</dimen>
+    <dimen name="rv_layout_constraintHorizontal_bias">0.39</dimen>
+    <dimen name ="tv_layout_constraintHorizontal_bias">0.027</dimen>
+    <dimen name ="tv_land_layout_constraintHorizontal_bias">0.154</dimen>
+    <dimen name="tv_release_layout_height">44dp</dimen>
+    <dimen name="tv_user_rating_layout_constraintHorizontal_bias">0.191</dimen>
+    <dimen name="tv_plot_land_layout_constraintHorizontal_bias">0.0</dimen>
+    <dimen name="tv_plot_layout_constraintHorizontal_bias">0.027</dimen>
+    <dimen name="tv_plot_padding">15dp</dimen>
+    <dimen name="iv_image_padding">5dp</dimen>
+    <dimen name="iv_image_layout_height">173dp</dimen>
+    <dimen name="iv_image_layout_width">125dp</dimen>
+    <dimen name="iv_image_land_layout_height">139dp</dimen>
+    <dimen name="iv_image_land_layout_width">118dp</dimen>
+    <dimen name="shadow">1</dimen>
+    <dimen name="showRadius">2</dimen>
+    <dimen name="title_layout_height">115dp</dimen>
+    <dimen name="title_land_layout_height">61dp</dimen>
+    <dimen name="detail_layout_editor_absoluteY">81dp</dimen>
+
+
+
+</resources>

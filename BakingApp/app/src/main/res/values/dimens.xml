@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="step_text_size">25sp</dimen>
+    <dimen name="steps_card_textSize">20sp</dimen>
+    <dimen name ="divider_width">1dp</dimen>
+    <dimen name="tablet_frame_width">400dp</dimen>
+    <dimen name="widget_recipe_textSize">20sp</dimen>
+    <dimen name="widget_ingredient_textSize">15sp</dimen>
+    <dimen name="recipe_card_margin">5dp</dimen>
+    <dimen name ="recipe_corner_radius">4dp</dimen>
+    <dimen name="recipe_card_elevation">6dp</dimen>
+    <dimen name ="recipe_textSize">25sp</dimen>
+    <dimen name ="recipe_ImageHeight">100dp</dimen>
+    <dimen name="recipe_ImageMarginTop">50dp</dimen>
+    <dimen name="recipe_ImageMarginBottom">50dp</dimen>
+    <dimen name="recipe_ImagePadding">15dp</dimen>
+    <dimen name="recipe_ImageElevation">1dp</dimen>
+    <dimen name ="land_exoplayer_margin">8dp</dimen>
+    <dimen name ="exoplayer_margin">8dp</dimen>
+    <dimen name="exoplayer_height">271dp</dimen>
+    <dimen name="step_text_margin">8dp</dimen>
+    <dimen name="step_textSize">20sp</dimen>
+    <dimen name="button_prev_margin">16dp</dimen>
+    <dimen name="button_width">175dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="button_next_margin">8dp</dimen>
+    <dimen name="button_next_topmargin">16dp</dimen>
+    <dimen name="button_horizontal_bias">0.0</dimen>
+    <dimen name="step_card_margin">5dp</dimen>
+    <dimen name ="step_corner_radius">4dp</dimen>
+    <dimen name="step_card_elevation">6dp</dimen>
+    <dimen name="recipe_fragment_height">359dp</dimen>
+    <dimen name="recipe_fragment_margin">8dp</dimen>
+    <dimen name="recipe_fragment_bias">0.0</dimen>
+
+</resources>
